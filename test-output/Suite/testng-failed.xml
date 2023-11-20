@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="ibm_br" value="firefox"/>
+    <classes>
+      <class name="crossbrowserTest.NOPCommApp">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="verifyloginfeature"/>
+        </methods>
+      </class> <!-- crossbrowserTest.NOPCommApp -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

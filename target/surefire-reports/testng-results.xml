@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-13T22:59:53 PST" name="Suite" finished-at="2023-11-13T23:00:05 PST" duration-ms="12020">
+    <groups>
+    </groups>
+    <test started-at="2023-11-13T22:59:53 PST" name="Test" finished-at="2023-11-13T23:00:05 PST" duration-ms="12020">
+      <class name="nopComm_config.NOPCommApp">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:nopComm_config.NOPCommApp@55b7a4e0]" started-at="2023-11-13T22:59:53 PST" name="launchApp" finished-at="2023-11-13T22:59:58 PST" duration-ms="4621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyAppTitle()[pri:0, instance:nopComm_config.NOPCommApp@55b7a4e0]" started-at="2023-11-13T22:59:58 PST" name="verifyAppTitle" finished-at="2023-11-13T23:00:05 PST" duration-ms="7205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppTitle -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:nopComm_config.NOPCommApp@55b7a4e0]" started-at="2023-11-13T23:00:05 PST" name="closeApp" finished-at="2023-11-13T23:00:05 PST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- nopComm_config.NOPCommApp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
