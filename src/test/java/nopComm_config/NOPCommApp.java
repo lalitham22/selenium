@@ -30,7 +30,7 @@ public class NOPCommApp extends BaseTest{
 		driver.findElement(By.cssSelector("input#RememberMe")).click();
 		
 		driver.findElement(By.tagName("button")).click();
-		System.out.println("Test');
+		System.out.println("Test");
 		
 		
 		
